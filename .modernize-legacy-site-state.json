@@ -3,7 +3,7 @@
   "version": "1.0",
   "sourceUrl": "https://taplink.cc/hair_vikki_studio",
   "projectPath": "/Users/aizat/Documents/Projects/RestoredOldSites/hair-vikki-modern",
-  "phase": "WAITING_FOR_PUBLICATION_APPROVAL",
+  "phase": "LIVE_VERIFICATION",
   "source": {
     "language": "ru",
     "businessName": "Hair Vikki",
@@ -40,6 +40,10 @@
       "basePathTested": "/hair-vikki-modern/"
     }
   },
-  "publication": { "approved": false },
+  "publication": {
+    "approved": true,
+    "repositoryUrl": "https://github.com/ComPanS/hair-vikki-modern",
+    "pagesUrl": "https://compans.github.io/hair-vikki-modern/"
+  },
   "postPublication": { "screenshots": [], "clientMessagePresented": false }
 }
