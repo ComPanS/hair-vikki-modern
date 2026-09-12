@@ -45,5 +45,8 @@
     "repositoryUrl": "https://github.com/ComPanS/hair-vikki-modern",
     "pagesUrl": "https://compans.github.io/hair-vikki-modern/"
   },
-  "postPublication": { "screenshots": [], "clientMessagePresented": false }
+  "postPublication": {
+    "screenshots": ["hair-vikki-live-homepage.png"],
+    "clientMessagePresented": true
+  }
 }
