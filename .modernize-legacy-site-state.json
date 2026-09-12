@@ -1,0 +1,45 @@
+{
+  "skill": "modernize-legacy-site",
+  "version": "1.0",
+  "sourceUrl": "https://taplink.cc/hair_vikki_studio",
+  "projectPath": "/Users/aizat/Documents/Projects/RestoredOldSites/hair-vikki-modern",
+  "phase": "WAITING_FOR_PUBLICATION_APPROVAL",
+  "source": {
+    "language": "ru",
+    "businessName": "Hair Vikki",
+    "location": "Казань, ул. Пушкина, 1А; Taplink уточняет: 1/55А, 4 этаж, кабинет 403",
+    "mobileStatus": "present",
+    "mobileEvidence": [
+      "Taplink renders a functional single-column profile at 390x844 with readable text and usable external actions.",
+      "The profile exposes no site navigation or internal content pages; all substantive actions leave for Yclients, WhatsApp, Telegram or a linked public profile.",
+      "Yandex Maps organization card renders its overview and full price catalogue at 390x844."
+    ]
+  },
+  "routes": [
+    { "path": "/", "stage": 1, "status": "implemented" },
+    { "path": "/prices", "stage": 2, "status": "deferred" },
+    { "path": "/works", "stage": 2, "status": "deferred" },
+    { "path": "/reviews", "stage": 2, "status": "deferred" }
+  ],
+  "assets": [
+    { "path": "public/images/hair-vikki-logo.jpg", "source": "Yandex Maps organization logo" },
+    { "path": "public/images/hair-vikki-hero-bg.png", "source": "Locally generated decorative bitmap" },
+    { "path": "public/images/hair-result-02.jpg", "source": "Yandex Maps organization gallery" }
+  ],
+  "local": {
+    "buildPassed": true,
+    "distPath": "dist",
+    "qa": {
+      "pass1": true,
+      "pass2": true,
+      "viewports": ["390x844", "768x1024", "1440x900"],
+      "mobileNavigation": true,
+      "anchors": true,
+      "bookingDestination": "https://n1152724.yclients.com/company/1060641/personal/select-services?o=",
+      "basePath": true,
+      "basePathTested": "/hair-vikki-modern/"
+    }
+  },
+  "publication": { "approved": false },
+  "postPublication": { "screenshots": [], "clientMessagePresented": false }
+}
